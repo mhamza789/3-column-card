@@ -11,16 +11,16 @@ div.container {
 
 div.col1 {
     background-color: hsl(31, 77%, 52%);
-    border-radius: 20px 0 0 20px;
+    border-radius: 10px 0 0 10px;
 }
 
 @media screen and (max-width: 992px) {
     div.col1 {
-        border-radius: 20px 20px 0 0 !important;
+        border-radius: 10px 10px 0 0 !important;
     }
 
     div.col3 {
-        border-radius: 0 0 20px 20px !important;
+        border-radius: 0 0 10px 10px !important;
     }
 }
 
@@ -30,7 +30,7 @@ div.col2 {
 
 div.col3 {
     background-color: hsl(179, 100%, 13%);
-    border-radius: 0 20px 20px 0;
+    border-radius: 0 10px 10px 0;
 }
 
 h1 {
